@@ -834,11 +834,12 @@ public class LoaderUnificationTargets implements Runnable {
 		OreDictManager.INSTANCE.setTarget(OP.ingot          , MT.CrystalMatrix          , MD.AV, "Resource", 1);
 		OreDictManager.INSTANCE.setTarget(OP.nugget         , MT.CosmicNeutronium       , MD.AV, "Resource", 3);
 		OreDictManager.INSTANCE.setTarget(OP.ingot          , MT.CosmicNeutronium       , MD.AV, "Resource", 4);
+        OreDictManager.INSTANCE.setTarget(OP.gem            , MT.InfinityCatalyst       , MD.AV, "Resource", 5);
 		OreDictManager.INSTANCE.setTarget(OP.ingot          , MT.Infinity               , MD.AV, "Resource", 6);
 		OreDictManager.INSTANCE.setTarget(OP.blockIngot     , MT.CosmicNeutronium       , MD.AV, "Resource_Block", 0);
 		OreDictManager.INSTANCE.setTarget(OP.blockIngot     , MT.Infinity               , MD.AV, "Resource_Block", 1);
 		OreDictManager.INSTANCE.setTarget(OP.blockIngot     , MT.CrystalMatrix          , MD.AV, "Crystal_Matrix", 0);
-		OreDictManager.INSTANCE.setTarget(OP.bottle         , MT.H2SO4                  , MD.FZ, "acid"           , 0);
+        OreDictManager.INSTANCE.setTarget(OP.bottle         , MT.H2SO4                  , MD.FZ, "acid"           , 0);
 		OreDictManager.INSTANCE.setTarget(OP.bottle         , MT.AquaRegia              , MD.FZ, "acid"           , 1);
 		OreDictManager.INSTANCE.setTarget(OP.dust           , MT.Netherrack             , MD.FZ, "nether_powder"  , 1);
 		OreDictManager.INSTANCE.setTarget(OP.ingot          , MT.DarkIron               , MD.FZ, "dark_iron_ingot", 0);
