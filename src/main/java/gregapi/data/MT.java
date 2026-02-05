@@ -1578,9 +1578,6 @@ public class MT {
 	RedMatter               = create        ( 8382, "Red Matter"            , SET_RUBY              , 255,   0,   0, 255, G_GEM, MAGICAL, UNBURNABLE, VALUABLE)                                                                                                                                                                                                                                                                 .aspects(TC.POTENTIA, 10, TC.LUX     , 10).qual(3, 30.0, 25600, 6),
 
 
-    InfinityCatalyst        = create        ( 8814, "Infinity Catalyst"     , SET_NETHERSTAR        , 250, 250, 250, 255, G_GEM, MAGICAL, UNBURNABLE, VALUABLE)                                                                                                                                                                                                                                                                 .aspects(TC.POTENTIA, 5, TC.NEBRISUM, 5, TC.PERMUTATIO, 5, TC.MAGNETO, 5, TC.PRAECANTIO, 5, TC.AURAM, 5).heat(100000),
-
-
     EnergiumRed             = crystalcent   ( 8298, "EnergiumRed"           , SET_DIAMOND           , 255,   0,   0, 255, CRYSTALLISABLE)                                                                                                                           .uumMcfg( 0, Sapphire       , 4*U, Redstone         , 5*U)                                                                                                  .aspects(TC.LUX, 2, TC.POTENTIA, 2).setLocal("Red Energium"),
 	EnergiumCyan            = crystalcent   ( 8299, "EnergiumCyan"          , SET_DIAMOND           ,   0, 255, 255, 255, CRYSTALLISABLE)                                                                                                                           .uumMcfg( 0, Sapphire       , 4*U, Nikolite         , 5*U)                                                                                                  .aspects(TC.LUX, 2, TC.POTENTIA, 4).setLocal("Cyan Energium"),
 	
@@ -2518,7 +2515,6 @@ public class MT {
 			
 			CrystalMatrix           .put(MD.AV).visDefault();
 			CosmicNeutronium        .put(MD.AV).visDefault();
-            InfinityCatalyst        .put(MD.AV).visDefault();
 			Infinity                .put(MD.AV, BETWEENLANDS, MAZEBREAKER).visDefault();
 			
 			

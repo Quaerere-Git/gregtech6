@@ -834,7 +834,6 @@ public class LoaderUnificationTargets implements Runnable {
 		OreDictManager.INSTANCE.setTarget(OP.ingot          , MT.CrystalMatrix          , MD.AV, "Resource", 1);
 		OreDictManager.INSTANCE.setTarget(OP.nugget         , MT.CosmicNeutronium       , MD.AV, "Resource", 3);
 		OreDictManager.INSTANCE.setTarget(OP.ingot          , MT.CosmicNeutronium       , MD.AV, "Resource", 4);
-        OreDictManager.INSTANCE.setTarget(OP.gem            , MT.InfinityCatalyst       , MD.AV, "Resource", 5);
 		OreDictManager.INSTANCE.setTarget(OP.ingot          , MT.Infinity               , MD.AV, "Resource", 6);
 		OreDictManager.INSTANCE.setTarget(OP.blockIngot     , MT.CosmicNeutronium       , MD.AV, "Resource_Block", 0);
 		OreDictManager.INSTANCE.setTarget(OP.blockIngot     , MT.Infinity               , MD.AV, "Resource_Block", 1);
