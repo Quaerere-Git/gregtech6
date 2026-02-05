@@ -263,6 +263,7 @@ public class GT6_Main extends Abstract_Mod {
 		new Compat_Recipes_ActuallyAdditions    (MD.AA            , this);
 		new Compat_Recipes_ExtraUtilities       (MD.ExU           , this);
 		new Compat_Recipes_WRCBE                (MD.WR_CBE_C      , this);
+        new Compat_Recipes_Avaritia             (MD.AV            , this);
 		
 		new CompatMods(MD.GT, this) {@Override public void onPostLoad(FMLPostInitializationEvent aInitEvent) {
 			ArrayListNoNulls<Runnable> tList = new ArrayListNoNulls<>(F,
