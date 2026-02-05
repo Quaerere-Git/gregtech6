@@ -6,7 +6,6 @@ import gregapi.code.ModData;
 import gregapi.compat.CompatMods;
 import gregapi.data.*;
 import gregapi.util.ST;
-import net.minecraft.init.Blocks;
 
 import static gregapi.data.CS.*;
 
