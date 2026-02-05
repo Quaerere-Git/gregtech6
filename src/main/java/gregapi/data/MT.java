@@ -719,7 +719,7 @@ public class MT {
 	Uqe     = unknown( 1490,  257),
 	Upn     = unknown( 1500,  260),
 	Upu     = unknown( 1510,  263),
-	Vb      = element( 1520, "Vibranium"             , "Vb"      , 152, 266,  4852, 9415, 3.23978365, SET_EMERALD, 200, 128, 255, 100, G_GEM_ORES_TRANSPARENT, UUM, VALUABLE, GLOWING, UNBURNABLE, "Unpentbium").aspects(TC.VITREUS, 10, TC.SENSUS, 10).setPriorityPrefix(1).qual(3, 1000.0, 512, 15), Upb = Vb,
+	Vb      = element( 1520, "Vibranium"             , "Vb"      , 152, 266,  4852, 9415, 3.23978365, SET_EMERALD, 200, 128, 255, 100, G_GEM_ORES_TRANSPARENT, UUM, VALUABLE, GLOWING, UNBURNABLE, MOLTEN, "Unpentbium").aspects(TC.VITREUS, 10, TC.SENSUS, 10).setPriorityPrefix(1).qual(3, 1000.0, 512, 15), Upb = Vb,
 	Upt     = unknown( 1530,  269),
 	Upq     = unknown( 1540,  272),
 	Upp     = unknown( 1550,  276),
