@@ -5,7 +5,9 @@ import gregapi.api.Abstract_Mod;
 import gregapi.code.ModData;
 import gregapi.compat.CompatMods;
 import gregapi.data.*;
+import gregapi.util.OM;
 import gregapi.util.ST;
+import net.minecraft.block.Block;
 
 import static gregapi.data.CS.*;
 
@@ -20,6 +22,6 @@ public class Compat_Recipes_Avaritia extends CompatMods {
         RM.Replicator.addRecipe2(F, 16, 2304000, 1000, ST.make(MD.AV,"Resource",0,5), OP.gemLegendary.mat(MT.NetherStar, 1), FL.array(FL.MatterNeutral.make(1152), FL.MatterCharged.make(1152), MT.Vb.liquid(8*U, T)), NF, ST.make(MD.AV,"Resource",23,5));
 
 
-        RM.Injector.addRecipe2(F, 16, 36000, OP.blockDust.mat(MT.Endstone, 4), OP.oreEndstone.mat(MT.NetherStar, 1));
+        RM.Bath.addRecipe1(T, 0, 1024, OP.dust     .mat(MT.NetherStar, 16), MT.Petrotheum.liquid(9*U5,T), NF, OP.oreVanillastone     .mat(MT.NetherStar, 1));
     }
 }
